@@ -90,7 +90,7 @@ const App: React.FC = () => {
   const generateAiInsights = async () => {
     if (customers.length === 0) return;
     
-    const apiKey = typeof process !== 'undefined' ? process.env.API_KEY : '';
+    const apiKey = "AIzaSyCp9NXuFW7Yhc2nwiuk2GeNlWp7wqHWgNY";
     
     if (!apiKey) {
       setAiInsights("AI 분석 기능을 활성화하려면 API 키 설정이 필요합니다.");
