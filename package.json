@@ -1,0 +1,26 @@
+
+{
+  "name": "insure-planner-crm",
+  "version": "2.1.0",
+  "private": true,
+  "description": "Professional CRM for Insurance Planners",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve .",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "@google/genai": "^1.35.0",
+    "lucide-react": "^0.562.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "keywords": [
+    "crm",
+    "insurance",
+    "planner",
+    "react"
+  ],
+  "author": "Insure Planner Team",
+  "license": "MIT"
+}
